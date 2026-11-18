@@ -12,7 +12,8 @@ Get **LegendPanel.exe** from the [latest release](https://github.com/Encapsulati
 
 > Windows may show "Windows protected your PC" the first time, because the app isn't code-signed yet. Click **More info**, then **Run anyway**.
 
-> SHA256 (1.0.0): `21225a007f96a74c1f4daf129ed51dbe3fc5a5ebf3c29e6b6d3586a4e27bfb4f`
+> **VirusTotal (1.0.0):** [scan result](https://www.virustotal.com/gui/file/21225a007f96a74c1f4daf129ed51dbe3fc5a5ebf3c29e6b6d3586a4e27bfb4f)  
+> SHA256: `21225a007f96a74c1f4daf129ed51dbe3fc5a5ebf3c29e6b6d3586a4e27bfb4f`
 
 ## Requirements
 - Windows 10 or 11 (64-bit)
