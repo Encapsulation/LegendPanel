@@ -2,6 +2,10 @@
 
 ![LegendPanel](docs/legendpanel-hero.png)
 
+
+https://github.com/user-attachments/assets/a2c4e61c-8a13-4e4a-b75e-2e55a29b470a
+
+
 A performance panel for SteamVR. It sits on your wrist or in the room and shows your frame rate, frame times, GPU and CPU use, memory, batteries and eye tracking, without leaving VR. Free to use.
 
 ## What's new in 1.0
