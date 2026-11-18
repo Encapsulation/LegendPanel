@@ -12,7 +12,7 @@ Get **LegendPanel.exe** from the [latest release](https://github.com/Encapsulati
 
 > Windows may show "Windows protected your PC" the first time, because the app isn't code-signed yet. Click **More info**, then **Run anyway**.
 
-> SHA256 (1.0.0): `25174af91de6e9e0c0d45176081f41e54db2ec20cc94ffd63af215d390d340c8`
+> SHA256 (1.0.0): `21225a007f96a74c1f4daf129ed51dbe3fc5a5ebf3c29e6b6d3586a4e27bfb4f`
 
 ## Requirements
 - Windows 10 or 11 (64-bit)
@@ -38,7 +38,7 @@ You can also open the panel from its button in the SteamVR dashboard's bottom ba
   - Pull your hands apart or together to resize; the size stays wherever it goes.
   - Use the thumbstick to push it away or pull it closer while holding it.
   - Grip strength is adjustable.
-- **Show when:** always, when you look at it with your head, or when you look at it with your eyes (LegendEye). It fades out when you look away and is invisible from behind.
+- **Show when:** always, when you look at it with your head, or when you look at it with your eyes (LegendEye). On the wrist it fades out when you look away; the room panel can too (off by default). It is invisible from behind.
 - **Eye-tracked menu (with LegendEye):** look at a button to press it. Large round targets, labels you can read without pressing, a look time from 0.5 to 2 seconds, optional smoothing, snapping to the button you mean, and a choice of cursors. Grid and ring layouts.
 - **Laser:** point with either controller and press with the trigger. Six colors and four angles.
 - **LegendEye remote:** pause or resume tracking, recenter (1 or 5 dots), face tracking, expressions, sending to the game, and foveated rendering presets, all from the panel.
