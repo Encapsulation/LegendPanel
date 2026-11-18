@@ -1,6 +1,6 @@
 # LegendPanel
 
-![LegendPanel](docs/hero.png)
+![LegendPanel](docs/legendpanel-hero.png)
 
 A performance panel for SteamVR. It sits on your wrist or in the room and shows your frame rate, frame times, GPU and CPU use, memory, batteries and eye tracking, without leaving VR. Free to use.
 
@@ -46,9 +46,9 @@ You can also open the panel from its button in the SteamVR dashboard's bottom ba
 - **Sounds:** soft hover and press clicks (optional).
 - **Light on your PC:** under 0.1 ms of GPU time per redraw while shown, and sampling runs on its own low-priority thread. While hidden it draws nothing and stops reading the sensors and app usage.
 
-![Per-app lists](docs/lists.png)
+![Per-app lists](docs/legendpanel-lists.png)
 
-![Menu](docs/menu.png)
+![Menu](docs/legendpanel-menu.png)
 
 ## Settings
 Settings are saved in `%LOCALAPPDATA%\LegendEye\info_panel.json`. Start with SteamVR can be turned on or off under **Tools** in the panel's menu or from the tray icon.
