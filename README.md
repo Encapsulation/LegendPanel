@@ -7,18 +7,24 @@ LegendPanel is a SteamVR panel that sits on your wrist or in the room. It shows 
 
 ## ⬇️ Download
 
-<a href="https://github.com/Encapsulation/LegendPanel/releases/latest/download/LegendPanel.exe"><img src="docs/download-button.png" alt="Download Legend Panel 2.0.2" width="374"></a>
+<a href="https://github.com/Encapsulation/LegendPanel/releases/latest/download/LegendPanel.exe"><img src="docs/download-button.png" alt="Download Legend Panel 2.0.3" width="374"></a>
 
 One file: no installer, nothing to unpack. To update, replace the exe; your settings are kept. [All releases](https://github.com/Encapsulation/LegendPanel/releases)
 
-**VirusTotal (2.0.2):** [0 of 71 security vendors flagged it](https://www.virustotal.com/gui/file/60555c1aa0bd95351f07f62eff443ee7ea7114e480e84dd8d33fce2de2471768)  
-SHA256: `60555c1aa0bd95351f07f62eff443ee7ea7114e480e84dd8d33fce2de2471768`
+**VirusTotal (2.0.3):** [0 of 71 security vendors flagged it](https://www.virustotal.com/gui/file/99bbb742bad9e3b5f5273b1ea8f2a2d56f0275909fd2a9aa37b06b4fc7f0b76d)  
+SHA256: `99bbb742bad9e3b5f5273b1ea8f2a2d56f0275909fd2a9aa37b06b4fc7f0b76d`
 
 Windows may show "Windows protected your PC" the first time, because the app isn't code-signed yet. Click **More info**, then **Run anyway**.
 
 ![The panel: frame times, GPU and CPU use, per-app lists, memory and eye tracking](docs/legendpanel-lists.png)
 
 ![LegendPanel 2.0 features](docs/legendpanel-features.png)
+
+## What's new in 2.0.3
+
+### Keyboard settings
+- A **Keys** menu for the keyboard: open it with **Layout and size** on the **Keyboard** page. It holds the layout (QWERTY, AZERTY, QWERTZ, Dvorak), the keyboard size and the edit keys. **Back** returns to the keyboard's pages.
+- Index fingers now sit with the other ways to type on the **Keyboard** page: Laser, Touch, Index fingers, Eyes and Eye assist.
 
 ## What's new in 2.0.2
 
@@ -27,7 +33,7 @@ Windows may show "Windows protected your PC" the first time, because the app isn
 ### Edit keys
 - Copy and Paste keys in the VR keyboard's top bar, next to the gear, on every keyboard size. On by default.
 - Cut, Select all and Undo can sit next to them. Off by default.
-- One **Edit** button under **Keyboard > Voice** switches between Copy and Paste, all five, or none.
+- One **Edit** button (in the keyboard's **Keys** menu since 2.0.3) switches between Copy and Paste, all five, or none.
 
 ## What's new in 2.0.1
 
