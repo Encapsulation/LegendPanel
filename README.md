@@ -135,5 +135,7 @@ Settings are saved in `%LOCALAPPDATA%\LegendEye\info_panel.json`. Start with Ste
 ## License
 Free to use. See [LICENSE.txt](LICENSE.txt) and [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt).
 
-## Demo
+## Demo (1.0)
+A 2.0 demo is coming soon.
+
 https://github.com/user-attachments/assets/a2c4e61c-8a13-4e4a-b75e-2e55a29b470a
