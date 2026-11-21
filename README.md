@@ -62,8 +62,6 @@ LegendPanel is a SteamVR panel that sits on your wrist or in the room. It shows 
 
 ![Space drag and eye comfort](docs/legendpanel-hero2.png)
 
-![Space drag](docs/legendpanel-spacedrag.png)
-
 ![Eye comfort](docs/legendpanel-eyecomfort.png)
 
 ### Lasers and test images
