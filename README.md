@@ -7,18 +7,26 @@ LegendPanel is a SteamVR panel that sits on your wrist or in the room. It shows 
 
 ## ⬇️ Download
 
-<a href="https://github.com/Encapsulation/LegendPanel/releases/latest/download/LegendPanel.exe"><img src="docs/download-button.png" alt="Download Legend Panel 2.0.3" width="374"></a>
+<a href="https://github.com/Encapsulation/LegendPanel/releases/latest/download/LegendPanel.exe"><img src="docs/download-button.png" alt="Download Legend Panel 2.0.4" width="374"></a>
 
 One file: no installer, nothing to unpack. To update, replace the exe; your settings are kept. [All releases](https://github.com/Encapsulation/LegendPanel/releases)
 
-**VirusTotal (2.0.3):** [0 of 71 security vendors flagged it](https://www.virustotal.com/gui/file/99bbb742bad9e3b5f5273b1ea8f2a2d56f0275909fd2a9aa37b06b4fc7f0b76d)  
-SHA256: `99bbb742bad9e3b5f5273b1ea8f2a2d56f0275909fd2a9aa37b06b4fc7f0b76d`
+**VirusTotal (2.0.4):** [0 of 71 security vendors flagged it](https://www.virustotal.com/gui/file/d92455bbde53f49e0004c630173de1d7858a0985d421a3e1761cfac82b8d79b7)  
+SHA256: `d92455bbde53f49e0004c630173de1d7858a0985d421a3e1761cfac82b8d79b7`
 
 Windows may show "Windows protected your PC" the first time, because the app isn't code-signed yet. Click **More info**, then **Run anyway**.
 
 ![The panel: frame times, GPU and CPU use, per-app lists, memory and eye tracking](docs/legendpanel-lists.png)
 
 ![LegendPanel 2.0 features](docs/legendpanel-features.png)
+
+## What's new in 2.0.4
+
+### Fixes
+- LegendPanel now closes with SteamVR when SteamVR started it. Before, it kept running after SteamVR closed, and Steam showed SteamVR as still running and refused to start it again.
+- When SteamVR starts LegendPanel, it now has a tray icon. Before, it ran with no window and no tray icon.
+- Opening LegendPanel while it's already running now brings up its window. Before, nothing happened.
+- A LegendPanel you open yourself stays open when SteamVR closes.
 
 ## What's new in 2.0.3
 
