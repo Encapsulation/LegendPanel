@@ -7,7 +7,7 @@ LegendPanel is a SteamVR panel that sits on your wrist or in the room. It shows 
 
 ## ⬇️ Download
 
-[![Download LegendPanel.exe 2.0.1](https://img.shields.io/badge/%E2%AC%87%EF%B8%8F_Download-LegendPanel.exe_2.0.1-2ea44f?style=for-the-badge&labelColor=2ea44f)](https://github.com/Encapsulation/LegendPanel/releases/latest/download/LegendPanel.exe)
+[![Download LegendPanel](https://img.shields.io/badge/%E2%AC%87%EF%B8%8F_Download-LegendPanel-2ea44f?style=for-the-badge&labelColor=2ea44f)](https://github.com/Encapsulation/LegendPanel/releases/latest/download/LegendPanel.exe)
 
 One file: no installer, nothing to unpack. To update, replace the exe; your settings are kept. [All releases](https://github.com/Encapsulation/LegendPanel/releases)
 
