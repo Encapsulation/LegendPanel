@@ -7,18 +7,27 @@ LegendPanel is a SteamVR panel that sits on your wrist or in the room. It shows 
 
 ## ⬇️ Download
 
-<a href="https://github.com/Encapsulation/LegendPanel/releases/latest/download/LegendPanel.exe"><img src="docs/download-button.png" alt="Download Legend Panel 2.0.1" width="371"></a>
+<a href="https://github.com/Encapsulation/LegendPanel/releases/latest/download/LegendPanel.exe"><img src="docs/download-button.png" alt="Download Legend Panel 2.0.2" width="374"></a>
 
 One file: no installer, nothing to unpack. To update, replace the exe; your settings are kept. [All releases](https://github.com/Encapsulation/LegendPanel/releases)
 
-**VirusTotal (2.0.1):** [0 of 71 security vendors flagged it](https://www.virustotal.com/gui/file/dd71d622ff0cb8060fe69d9f820d7cb44113102748aa57d165ae441687c5f719)  
-SHA256: `dd71d622ff0cb8060fe69d9f820d7cb44113102748aa57d165ae441687c5f719`
+**VirusTotal (2.0.2):** [0 of 71 security vendors flagged it](https://www.virustotal.com/gui/file/60555c1aa0bd95351f07f62eff443ee7ea7114e480e84dd8d33fce2de2471768)  
+SHA256: `60555c1aa0bd95351f07f62eff443ee7ea7114e480e84dd8d33fce2de2471768`
 
 Windows may show "Windows protected your PC" the first time, because the app isn't code-signed yet. Click **More info**, then **Run anyway**.
 
 ![The panel: frame times, GPU and CPU use, per-app lists, memory and eye tracking](docs/legendpanel-lists.png)
 
 ![LegendPanel 2.0 features](docs/legendpanel-features.png)
+
+## What's new in 2.0.2
+
+![Copy and Paste in the keyboard's top bar](docs/legendpanel-editkeys.png)
+
+### Edit keys
+- Copy and Paste keys in the VR keyboard's top bar, next to the gear, on every keyboard size. On by default.
+- Cut, Select all and Undo can sit next to them. Off by default.
+- One **Edit** button under **Keyboard > Voice** switches between Copy and Paste, all five, or none.
 
 ## What's new in 2.0.1
 
