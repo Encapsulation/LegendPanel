@@ -7,16 +7,14 @@ LegendPanel is a SteamVR panel that sits on your wrist or in the room. It shows 
 
 ## ⬇️ Download
 
-> [!TIP]
-> **[⬇️ Download LegendPanel.exe](https://github.com/Encapsulation/LegendPanel/releases/latest/download/LegendPanel.exe)** (2.0.1) · [all releases](https://github.com/Encapsulation/LegendPanel/releases)
->
-> One file: no installer, nothing to unpack. To update, replace the exe; your settings are kept.
->
-> **VirusTotal (2.0.1):** [0 of 71 security vendors flagged it](https://www.virustotal.com/gui/file/dd71d622ff0cb8060fe69d9f820d7cb44113102748aa57d165ae441687c5f719)  
-> SHA256: `dd71d622ff0cb8060fe69d9f820d7cb44113102748aa57d165ae441687c5f719`
+[![Download LegendPanel.exe 2.0.1](https://img.shields.io/badge/%E2%AC%87%EF%B8%8F_Download-LegendPanel.exe_2.0.1-2ea44f?style=for-the-badge&labelColor=2ea44f)](https://github.com/Encapsulation/LegendPanel/releases/latest/download/LegendPanel.exe)
 
-> [!NOTE]
-> Windows may show "Windows protected your PC" the first time, because the app isn't code-signed yet. Click **More info**, then **Run anyway**.
+One file: no installer, nothing to unpack. To update, replace the exe; your settings are kept. [All releases](https://github.com/Encapsulation/LegendPanel/releases)
+
+**VirusTotal (2.0.1):** [0 of 71 security vendors flagged it](https://www.virustotal.com/gui/file/dd71d622ff0cb8060fe69d9f820d7cb44113102748aa57d165ae441687c5f719)  
+SHA256: `dd71d622ff0cb8060fe69d9f820d7cb44113102748aa57d165ae441687c5f719`
+
+Windows may show "Windows protected your PC" the first time, because the app isn't code-signed yet. Click **More info**, then **Run anyway**.
 
 ![The panel: frame times, GPU and CPU use, per-app lists, memory and eye tracking](docs/legendpanel-lists.png)
 
