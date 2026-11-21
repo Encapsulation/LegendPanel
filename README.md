@@ -5,6 +5,19 @@
 
 LegendPanel is a SteamVR panel that sits on your wrist or in the room. It shows your frame rate, frame times, GPU and CPU use, memory, batteries and eye tracking without leaving VR. It also puts your monitors and app windows in VR as dockable overlays that curve, fold and follow you, with a VR keyboard, local voice typing that runs on your PC, media and sound controls, space drag, eye comfort (brightness and color temperature), laser styles, headset test images and, with LegendEye, eye-tracked menus. Free to use.
 
+## ⬇️ Download
+
+> [!TIP]
+> **[⬇️ Download LegendPanel.exe](https://github.com/Encapsulation/LegendPanel/releases/latest/download/LegendPanel.exe)** (2.0.1) · [all releases](https://github.com/Encapsulation/LegendPanel/releases)
+>
+> One file: no installer, nothing to unpack. To update, replace the exe; your settings are kept.
+>
+> **VirusTotal (2.0.1):** [0 of 71 security vendors flagged it](https://www.virustotal.com/gui/file/dd71d622ff0cb8060fe69d9f820d7cb44113102748aa57d165ae441687c5f719)  
+> SHA256: `dd71d622ff0cb8060fe69d9f820d7cb44113102748aa57d165ae441687c5f719`
+
+> [!NOTE]
+> Windows may show "Windows protected your PC" the first time, because the app isn't code-signed yet. Click **More info**, then **Run anyway**.
+
 ![The panel: frame times, GPU and CPU use, per-app lists, memory and eye tracking](docs/legendpanel-lists.png)
 
 ![LegendPanel 2.0 features](docs/legendpanel-features.png)
@@ -96,14 +109,6 @@ LegendPanel is a SteamVR panel that sits on your wrist or in the room. It shows 
 - VRAM in use on AMD and Intel GPUs.
 
 ![Menu](docs/legendpanel-menu.png)
-
-## Download
-Get **LegendPanel.exe** from the [latest release](https://github.com/Encapsulation/LegendPanel/releases/latest). It's a single file: no installer, nothing to unpack.
-
-> Windows may show "Windows protected your PC" the first time, because the app isn't code-signed yet. Click **More info**, then **Run anyway**.
-
-> **VirusTotal (2.0.1):** [0 of 71 security vendors flagged it](https://www.virustotal.com/gui/file/dd71d622ff0cb8060fe69d9f820d7cb44113102748aa57d165ae441687c5f719)  
-> SHA256: `dd71d622ff0cb8060fe69d9f820d7cb44113102748aa57d165ae441687c5f719`
 
 ## Requirements
 - Windows 10 or 11 (64-bit)
