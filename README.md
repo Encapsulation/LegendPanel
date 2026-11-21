@@ -3,9 +3,6 @@
 ![LegendPanel](docs/legendpanel-hero.png)
 
 
-https://github.com/user-attachments/assets/a2c4e61c-8a13-4e4a-b75e-2e55a29b470a
-
-
 LegendPanel is a SteamVR panel that sits on your wrist or in the room. It shows your frame rate, frame times, GPU and CPU use, memory, batteries and eye tracking without leaving VR. With 2.0 it also puts your monitors and app windows in VR, with a keyboard, voice typing and full control over how everything docks and moves. Free to use.
 
 ![LegendPanel 2.0 features](docs/legendpanel-features.png)
@@ -137,3 +134,6 @@ Settings are saved in `%LOCALAPPDATA%\LegendEye\info_panel.json`. Start with Ste
 
 ## License
 Free to use. See [LICENSE.txt](LICENSE.txt) and [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt).
+
+## Demo
+https://github.com/user-attachments/assets/a2c4e61c-8a13-4e4a-b75e-2e55a29b470a
