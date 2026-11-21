@@ -139,3 +139,12 @@ Free to use. See [LICENSE.txt](LICENSE.txt) and [THIRD_PARTY_NOTICES.txt](THIRD_
 A 2.0 demo is coming soon.
 
 https://github.com/user-attachments/assets/a2c4e61c-8a13-4e4a-b75e-2e55a29b470a
+
+## Star History
+<a href="https://www.star-history.com/#Encapsulation/LegendPanel&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Encapsulation/LegendPanel&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Encapsulation/LegendPanel&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Encapsulation/LegendPanel&type=Date" />
+  </picture>
+</a>
