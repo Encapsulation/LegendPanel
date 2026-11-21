@@ -9,6 +9,18 @@ LegendPanel is a SteamVR panel that sits on your wrist or in the room. It shows 
 
 ![LegendPanel 2.0 features](docs/legendpanel-features.png)
 
+## What's new in 2.0.1
+
+![LegendPanel 2.0.1](docs/legendpanel-hero-201.png)
+
+### Keyboard sizes
+- Pick the VR keyboard's size with the **Size** button under **Keyboard**, next to the layouts: Compact (the 2.0 keyboard), 75%, TKL or Full size. The keys stay the same size; a bigger keyboard is just wider.
+- **75%:** Esc, F1 to F12, Ctrl, Win and Alt, Ins and Del, Home, Page Up, Page Down and End down the right side, and the arrow keys in an inverted T.
+- **TKL:** the full main keys, the Ins / Home / Page Up / Del / End / Page Down block and the arrow keys.
+- **Full size:** everything on TKL plus a number pad.
+- **Ctrl, Alt and Win** work like on XSOverlay: tap Ctrl, then C, to copy. Tap one twice quickly to keep it held, and tap it again to let go.
+- Every size works with QWERTY, AZERTY, QWERTZ and Dvorak, with your eyes, the lasers and the controller tips, and still resizes with both hands.
+
 ## What's new in 2.0
 
 ### Screens
@@ -90,8 +102,8 @@ Get **LegendPanel.exe** from the [latest release](https://github.com/Encapsulati
 
 > Windows may show "Windows protected your PC" the first time, because the app isn't code-signed yet. Click **More info**, then **Run anyway**.
 
-> **VirusTotal (2.0.0):** [0 of 70 security vendors flagged it](https://www.virustotal.com/gui/file/44913b7d893046873f4adec46d6a023617d0b7b28ff38f9999f54ccc04a82c69)  
-> SHA256: `44913b7d893046873f4adec46d6a023617d0b7b28ff38f9999f54ccc04a82c69`
+> **VirusTotal (2.0.1):** [0 of 71 security vendors flagged it](https://www.virustotal.com/gui/file/dd71d622ff0cb8060fe69d9f820d7cb44113102748aa57d165ae441687c5f719)  
+> SHA256: `dd71d622ff0cb8060fe69d9f820d7cb44113102748aa57d165ae441687c5f719`
 
 ## Requirements
 - Windows 10 or 11 (64-bit)
