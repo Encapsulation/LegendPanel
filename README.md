@@ -1,26 +1,131 @@
 # LegendPanel
 
-![LegendPanel](docs/legendpanel-hero.png)
+![LegendPanel 3.0](docs/legendpanel-hero-300v3.png)
 
 
-LegendPanel is a SteamVR panel that sits on your wrist or in the room. It shows your frame rate, frame times, GPU and CPU use, memory, batteries and eye tracking without leaving VR. It also puts your monitors and app windows in VR as dockable overlays that curve, fold and follow you, with a VR keyboard, local voice typing that runs on your PC, media and sound controls, space drag, eye comfort (brightness and color temperature), laser styles, headset test images and, with LegendEye, eye-tracked menus. Free to use.
+LegendPanel is a SteamVR panel that sits on your wrist or in the room. It shows your frame rate, frame times, GPU and CPU use, memory, batteries and eye tracking without leaving VR. It also puts your monitors and app windows in VR as overlays you dock into hinged assemblies that curve, fold and follow you, and snap screens, the keyboard and the panel to any body part you wear a tracker on, with a wristwatch, a fast VR keyboard, local voice typing on your GPU, every bind on one page, Game mode for any game, media and sound controls, space drag, eye comfort, laser styles, headset test images and, with LegendEye, eye and face tracking controls. Free to use.
 
 ## ⬇️ Download
 
-<a href="https://github.com/Encapsulation/LegendPanel/releases/latest/download/LegendPanel.exe"><img src="docs/download-button.png" alt="Download Legend Panel 2.0.4" width="374"></a>
+<a href="https://github.com/Encapsulation/LegendPanel/releases/latest/download/LegendPanel.exe"><img src="docs/download-button.png" alt="Download Legend Panel 3.0.0" width="374"></a>
 
 One file: no installer, nothing to unpack. To update, replace the exe; your settings are kept. [All releases](https://github.com/Encapsulation/LegendPanel/releases)
 
-**VirusTotal (2.0.4):** [0 of 71 security vendors flagged it](https://www.virustotal.com/gui/file/d92455bbde53f49e0004c630173de1d7858a0985d421a3e1761cfac82b8d79b7)  
-SHA256: `d92455bbde53f49e0004c630173de1d7858a0985d421a3e1761cfac82b8d79b7`
+**VirusTotal (3.0.0):** [1 of 70 security vendors flagged it](https://www.virustotal.com/gui/file/e4e01d3ec975b4f550931022301044fbd6f4aef307460241bf6a922ab4aa11cf) (a false positive from Bkav, a generic detection; Microsoft Defender and the other 69 vendors find nothing)  
+SHA256: `e4e01d3ec975b4f550931022301044fbd6f4aef307460241bf6a922ab4aa11cf`
 
 Windows may show "Windows protected your PC" the first time, because the app isn't code-signed yet. Click **More info**, then **Run anyway**.
 
+## Features
+
+![The panel, the keyboard, every bind, the watch styles, the key picker, a screen's bar and the desktop settings](docs/legendpanel-300-features.png)
+
+### Performance at a glance
+- **Frame card:** FPS against your headset's refresh rate, spare headroom and a frame-time graph. One bar shows where each frame's time goes (game, SteamVR, free), or separate GPU and CPU bars. It names the limit and suggests what to change.
+- **Usage:** GPU and CPU use, GPU temperature and power, the busiest core, reprojection and dropped frames, VRAM and RAM, and the apps using each.
+- **Batteries:** controllers and trackers, shown when one runs low.
+- **Eye tracking card** with LegendEye: tracking state, confidence, camera rate and foveated rendering.
+- Light on your PC: under 0.1 ms of GPU per redraw, and nothing at all while hidden.
+
 ![The panel: frame times, GPU and CPU use, per-app lists, memory and eye tracking](docs/legendpanel-lists.png)
 
-![LegendPanel 2.0 features](docs/legendpanel-features.png)
+### Screens in VR
+- Any monitor or app window as an overlay, as many as you like, restored after a restart. Fast mirror for games and 3D apps at their own frame rate.
+- Dock screens, the keyboard and the panel into assemblies that hinge at every joint. Grip a joint and push, pull or use the stick; lock an outer edge and both sides bend while everything stays flush.
+- Curve sideways and up-down, auto curve, one continuous curve across a docked row, 3D side-by-side and over-under.
+- Resize with two hands, or one hand at a corner (grip it or aim at it). Docked screens stay centered.
+- A control bar on every screen: keyboard, pin, curve, lock, voice typing, Game mode, size, opacity, Make Parent, Hide group, Recenter, Lock edge.
+- Snap to any body part: hold a screen, the keyboard or the panel near a tracker and a preview shows where it goes. Pick which body parts count (waist, chest, feet, knees, arms, others).
+- Pin to the room, a wrist, your head or a body tracker. Follow head, Surround, auto-tile and saved layouts.
+- Menus and pop-ups past a window's edge get overlays of their own.
 
-## What's new in 2.0.4
+![Curved units, folding and Surround](docs/legendpanel-surround.png)
+
+### The wristwatch
+- Six looks: Chronograph, Sport, Smart, Diver, Mini panel and Band.
+- Time, FPS with the last frames, CPU, GPU and VRAM use, batteries and what's playing, at your headset's refresh rate.
+- Buttons for the panel, the keyboard, your screens and your media. Grab it to put it on either wrist or anywhere in the room, size it, bend its strap round your wrist, lock it.
+
+![The wristwatch: six looks](docs/legendpanel-300-watch.png)
+
+### Keyboard and voice
+- A VR keyboard that types in 5.4 ms from trigger to keystroke (median; SteamVR's keyboard: 22.7 ms on the same rig).
+- Compact, 75%, TKL or full size; QWERTY, AZERTY, QWERTZ and Dvorak; symbols, emoji, text shortcuts and word suggestions.
+- Type with either laser, the controller tips, or your eyes. Themes, accent colors, key sounds and haptics. Lock it in place, gaze fade.
+- Voice typing on your own GPU with NVIDIA Nemotron: hold to talk, tap or hold, or hands-free, from the keyboard or any screen's bar. Windows speech as a fallback.
+
+![Keyboard latency](docs/legendpanel-300-latency.png)
+
+### Binds and Game mode
+- Every bind on one page, in VR and on the desktop: LegendPanel's actions, Game mode buttons, key binds and pictures of your controllers.
+- Any key, mouse button, wheel, media key, or one of your action buttons and macros, from grouped menus. Binds never clash. Learn and Record.
+- Key binds: hold controller buttons, or a mouse side button, to hold any key or combo (push-to-talk, hotkeys).
+- Game mode per screen: your controllers become an Xbox controller for that game while your laser is on it, and your VR game stops seeing them. Two styles: your own binds (keys, mouse, macros) for PC apps, or a plain controller with the standard layout for emulators. Sticks as gamepad all the time. Needs the free ViGEmBus driver.
+
+![Every bind on one page, any key, mouse button or macro](docs/legendpanel-300-binds.png)
+
+### Aim, click and grab
+- The laser clicks, right-clicks (tap the trackpad low), middle-clicks (tap its top) and scrolls in any window.
+- Trigger-pressure stabilization steadies the ray as you squeeze; button snap pulls the selection to the nearest button.
+- Kinetic physics: throw panels and screens and they fly on and dock where they land. Grab handles appear where your hand is.
+- Lock the panel, the keyboard, any screen or the watch so nothing moves it.
+
+### Playspace
+- 6DOF orient: tilt, turn and roll your whole playspace with a chord, snap back with another.
+- Teleport: hold, aim the arc, let go. Glide or jump, or one button for teleport and drag.
+- Space drag with momentum, friction and gravity, stick turn, Fix floor and Reset space.
+- Summon: click both sticks and the panel (or the watch) comes to you.
+
+### Eyes and face (with LegendEye)
+- Eye control of the panel: look to press, eye typing, a cursor that follows your eyes, calibration that keeps tuning itself.
+- LegendEye's tracking from the panel: pause, start and recenter; face tracking, expressions and face smoothing; foveated rendering presets.
+
+### Media, sound and actions
+- Now playing with previous, play / pause and next; master volume, a slider per app, output device and mic mute.
+- Action buttons: open an app, file or web page, press a hotkey, run a macro.
+
+![Media and sound](docs/legendpanel-media.png)
+
+### Look and comfort
+- 16 laser colors plus custom, 8 beam styles, pointer cursors, a clock and calendar.
+- Eye comfort: brightness down to 5 % and color temperature. Headset test images: sharpness, grid, colors, contrast, dark steps.
+
+![Lasers, tooltips and test images](docs/legendpanel-hero3.png)
+
+### The menu
+- Every setting in VR and in the desktop window, with an explanation on hover. Without eye control, the panel's Menu opens the full menu in VR; with it, the eye-tracked menu.
+- A tutorial on the first start and with each new version, and settings backup with undo.
+
+## What's new in 3.0
+- Hinged assemblies: one handle per joint, push / pull or stick to fold both sides, Lock edge to bend both.
+- The wristwatch, in six looks.
+- Every bind on one page, with any key, mouse button or macro.
+- Snap screens, the keyboard and the panel to the body trackers you pick.
+- 6DOF orient, teleport, kinetic physics panels and space drag with gravity.
+- A 5.4 ms keyboard, and voice typing on your GPU with three modes.
+- Eyes + Face controls for LegendEye, and an Auto menu that opens the full menu in VR.
+
+[Full 3.0 notes](RELEASE_3.0.0.md)
+
+## Requirements
+- Windows 10 or 11 (64-bit)
+- SteamVR
+- Any SteamVR headset. Index, Quest/Touch, Vive, Windows Mixed Reality, Cosmos and Reverb G2 controllers are supported.
+- For eye tracking, the eye-tracked menu and the LegendEye remote: [LegendEye](https://github.com/Encapsulation/LegendEye) 5.0 or later
+
+## Getting started
+1. Run LegendPanel.exe. It starts in the Windows tray, with no window.
+2. Put on your headset. The first time, the panel asks whether to start with SteamVR. Look at **Yes** or point your laser at it.
+3. Turn your left wrist toward you to see the panel. Squeeze the grip with your other hand to pick it up and move it. Let go on a wrist to wear it there, or anywhere else to leave it in the room.
+
+You can also open the panel from its button in the SteamVR dashboard's bottom bar, and change every setting from the tray icon.
+
+## Earlier releases
+
+<details>
+<summary>2.0 to 2.0.4</summary>
+
+### What's new in 2.0.4
 
 ### Fixes
 - LegendPanel now closes with SteamVR when SteamVR started it. Before, it kept running after SteamVR closed, and Steam showed SteamVR as still running and refused to start it again.
@@ -28,13 +133,13 @@ Windows may show "Windows protected your PC" the first time, because the app isn
 - Opening LegendPanel while it's already running now brings up its window. Before, nothing happened.
 - A LegendPanel you open yourself stays open when SteamVR closes.
 
-## What's new in 2.0.3
+### What's new in 2.0.3
 
 ### Keyboard settings
 - A **Keys** menu for the keyboard: open it with **Layout and size** on the **Keyboard** page. It holds the layout (QWERTY, AZERTY, QWERTZ, Dvorak), the keyboard size and the edit keys. **Back** returns to the keyboard's pages.
 - Index fingers now sit with the other ways to type on the **Keyboard** page: Laser, Touch, Index fingers, Eyes and Eye assist.
 
-## What's new in 2.0.2
+### What's new in 2.0.2
 
 ![Copy and Paste in the keyboard's top bar](docs/legendpanel-editkeys.png)
 
@@ -43,7 +148,7 @@ Windows may show "Windows protected your PC" the first time, because the app isn
 - Cut, Select all and Undo can sit next to them. Off by default.
 - One **Edit** button (in the keyboard's **Keys** menu since 2.0.3) switches between Copy and Paste, all five, or none.
 
-## What's new in 2.0.1
+### What's new in 2.0.1
 
 ![LegendPanel 2.0.1](docs/legendpanel-hero-201.png)
 
@@ -55,7 +160,7 @@ Windows may show "Windows protected your PC" the first time, because the app isn
 - **Ctrl, Alt and Win** work like on XSOverlay: tap Ctrl, then C, to copy. Tap one twice quickly to keep it held, and tap it again to let go.
 - Every size works with QWERTY, AZERTY, QWERTZ and Dvorak, with your eyes, the lasers and the controller tips, and still resizes with both hands.
 
-## What's new in 2.0
+### What's new in 2.0
 
 ### Screens
 - Monitors and single app windows as overlays (Windows Graphics Capture), as many as you like, restored after a restart.
@@ -131,41 +236,7 @@ Windows may show "Windows protected your PC" the first time, because the app isn
 
 ![Menu](docs/legendpanel-menu.png)
 
-## Requirements
-- Windows 10 or 11 (64-bit)
-- SteamVR
-- Any SteamVR headset. Index, Quest/Touch, Vive, Windows Mixed Reality, Cosmos and Reverb G2 controllers are supported.
-- For eye tracking, the eye-tracked menu and the LegendEye remote: [LegendEye](https://github.com/Encapsulation/LegendEye) 5.0 or later
-
-## Getting started
-1. Run LegendPanel.exe. It starts in the Windows tray, with no window.
-2. Put on your headset. The first time, the panel asks whether to start with SteamVR. Look at **Yes** or point your laser at it.
-3. Turn your left wrist toward you to see the panel. Squeeze the grip with your other hand to pick it up and move it. Let go on a wrist to wear it there, or anywhere else to leave it in the room.
-
-You can also open the panel from its button in the SteamVR dashboard's bottom bar, and change every setting from the tray icon.
-
-## Features
-- **Frame card:** frames per second against your headset's refresh rate, spare headroom, and a frame-time graph. One bar shows where each frame's time goes (game, SteamVR, free), or switch to separate GPU and CPU bars. It names the limit (GPU or CPU) and suggests what to change.
-- **Usage cards:** GPU and CPU use, GPU temperature and power, the busiest CPU core, reprojection and dropped frames, VRAM and RAM.
-- **Per-app usage:** the apps using the GPU, the CPU and memory. The view button at each card's top right switches to a full list. Point your laser at a list and use the thumbstick to scroll.
-- **Eye tracking card:** tracking state, confidence, eye camera rate, gaze age and foveated rendering status from LegendEye.
-- **Batteries:** controllers and trackers; shown in the header only when one runs low, the full list under the battery icon.
-- **Placement:** on either wrist like a watch, or pinned in the room.
-  - Grab with the grip, tilt and turn it, and drop it where you want.
-  - Pull your hands apart or together to resize (down to 2.5 cm on the wrist, 10 cm in the room); the size stays wherever it goes.
-  - Use the thumbstick to push it away or pull it closer while holding it.
-  - Grip strength is adjustable.
-  - **Dock beside wrist apps:** hold the panel next to another app's wrist panel (XSOverlay and others) and a faint preview shows where it will snap: above, below, left or right. Let go there and it stays docked beside it, facing the same way. Let go anywhere else and it stays exactly where you put it. The gap is adjustable (the Gap slider under **Panel > Docking**).
-- **Show when:** always, when you look at it with your head, or when you look at it with your eyes (LegendEye). On the wrist it fades out when you look away; the room panel can too (off by default). It is invisible from behind.
-- **Eye-tracked menu, ETUI (with LegendEye):** look at a button to press it. Large round targets, labels you can read without pressing, a look time from 0.3 to 3 seconds, optional smoothing, snapping to the button you mean, and a choice of cursors. Grid and ring layouts. Everything eye-driven is off until you turn on eye control.
-  - **CAL button:** if the eye cursor lands beside where you look, look straight at the center of the CAL button, point your laser at it too, and pull the trigger. The panel lines its eye cursor up with that spot. Each laser press after that keeps fine-tuning it (**Auto-tune eyes**, on by default).
-- **Menu:** sliders for anything with a range (drag with the laser, look at a labeled stop, or the - / + ends), and a Simple mode that shows only the common pages (**Panel > Menu**).
-- **Laser:** point with either controller and press with the trigger. Six colors or any custom color (look or point anywhere on the color field), four angles, the beam on or off, a pointer cursor of its own (dot, ring, cross, arrow, cone, none) and an adjustable beam width, under **Laser**.
-- **LegendEye remote:** pause or resume tracking, recenter (1 or 5 dots), face tracking, expressions, sending to the game, and foveated rendering presets, all from the panel.
-- **Fix floor:** press **Fix floor** (**Tools > Playspace**), put a controller on the floor while the countdown runs, and the floor is set to the bottom of that controller. Undo it from the tray icon.
-- **Streamer mode:** hides the time and the app lists for recordings and streams.
-- **Sounds and haptics:** six sound packs (Subtle, Melodic, Wood, Crisp, Glass, Bubble) under **Sound**; soft hover and press clicks; a click when you grab the panel, a light tick for each spot it can snap to, and a click and snap when you let go there (optional). Haptics (on by default, light / medium / strong) give a short tap in the hand on the same moments. Resizing plays the pack's own resize sound.
-- **Light on your PC:** under 0.1 ms of GPU time per redraw while shown, and sampling runs on its own low-priority thread. While hidden it draws nothing and stops reading the sensors and app usage.
+</details>
 
 ## Settings
 Settings are saved in `%LOCALAPPDATA%\LegendEye\info_panel.json`. Start with SteamVR can be turned on or off under **Tools** in the panel's menu or from the tray icon.
