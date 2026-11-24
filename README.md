@@ -7,12 +7,12 @@ LegendPanel is a SteamVR panel that sits on your wrist or in the room. It shows 
 
 ## ⬇️ Download
 
-<a href="https://github.com/Encapsulation/LegendPanel/releases/latest/download/LegendPanel.exe"><img src="docs/download-button.png" alt="Download Legend Panel 3.0.0" width="374"></a>
+<a href="https://github.com/Encapsulation/LegendPanel/releases/latest/download/LegendPanel.exe"><img src="docs/download-button.png" alt="Download Legend Panel 3.1.0" width="371"></a>
 
 One file: no installer, nothing to unpack. To update, replace the exe; your settings are kept. [All releases](https://github.com/Encapsulation/LegendPanel/releases)
 
-**VirusTotal (3.0.0):** [1 of 70 security vendors flagged it](https://www.virustotal.com/gui/file/e4e01d3ec975b4f550931022301044fbd6f4aef307460241bf6a922ab4aa11cf) (a false positive from Bkav, a generic detection; Microsoft Defender and the other 69 vendors find nothing)  
-SHA256: `e4e01d3ec975b4f550931022301044fbd6f4aef307460241bf6a922ab4aa11cf`
+**VirusTotal (3.1.0):** [0 of 69 security vendors flagged it](https://www.virustotal.com/gui/file/4b79d447bd3aad2b1cff27ae0d05767a6aeb7525d53563f253108427239c22b3)  
+SHA256: `4b79d447bd3aad2b1cff27ae0d05767a6aeb7525d53563f253108427239c22b3`
 
 Windows may show "Windows protected your PC" the first time, because the app isn't code-signed yet. Click **More info**, then **Run anyway**.
 
@@ -45,6 +45,8 @@ Windows may show "Windows protected your PC" the first time, because the app isn
 - Six looks: Chronograph, Sport, Smart, Diver, Mini panel and Band.
 - Time, FPS with the last frames, CPU, GPU and VRAM use, batteries and what's playing, at your headset's refresh rate.
 - Buttons for the panel, the keyboard, your screens and your media. Grab it to put it on either wrist or anywhere in the room, size it, bend its strap round your wrist, lock it.
+- Cable turns: how often you've turned one way, so the headset cable never tangles (no drift; click it when the cable is straight). Also on the panel, and as an optional floor ring.
+- Show when: always, or only while you look at your wrist.
 
 ![The wristwatch: six looks](docs/legendpanel-300-watch.png)
 
@@ -88,6 +90,7 @@ Windows may show "Windows protected your PC" the first time, because the app isn
 
 ### Look and comfort
 - 16 laser colors plus custom, 8 beam styles, pointer cursors, a clock and calendar.
+- Show when, for the panel, the watch, each screen and the keyboard: always, head turn or eye look, with its own angle, stay time, and faint or gone when away.
 - Eye comfort: brightness down to 5 % and color temperature. Headset test images: sharpness, grid, colors, contrast, dark steps.
 
 ![Lasers, tooltips and test images](docs/legendpanel-hero3.png)
@@ -95,6 +98,15 @@ Windows may show "Windows protected your PC" the first time, because the app isn
 ### The menu
 - Every setting in VR and in the desktop window, with an explanation on hover. Without eye control, the panel's Menu opens the full menu in VR; with it, the eye-tracked menu.
 - A tutorial on the first start and with each new version, and settings backup with undo.
+
+## What's new in 3.1
+
+![LegendPanel 3.1](docs/legendpanel-hero-310.png)
+
+- **Show when:** the panel, the watch, screens and the keyboard can each show only while you look at them (head turn or eye look), with their own angle, stay time, and faint or gone when away. The watch can now hide until you look at your wrist.
+- **Cable turns:** counts your turns one way so the headset cable never tangles. No drift (playspace turns and recentering never change it). On the watch and the panel past a set number of turns, plus an optional floor ring. Click the tag or the chip when the cable is straight. Off on wireless headsets.
+
+[Full 3.1 notes](RELEASE_3.1.0.md)
 
 ## What's new in 3.0
 - Hinged assemblies: one handle per joint, push / pull or stick to fold both sides, Lock edge to bend both.
