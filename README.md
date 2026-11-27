@@ -7,12 +7,12 @@ LegendPanel is a SteamVR panel that sits on your wrist or in the room. It shows 
 
 ## ⬇️ Download
 
-<a href="https://github.com/Encapsulation/LegendPanel/releases/latest/download/LegendPanel.exe"><img src="docs/download-button.png" alt="Download Legend Panel 3.1.0" width="371"></a>
+<a href="https://github.com/Encapsulation/LegendPanel/releases/latest/download/LegendPanel.exe"><img src="docs/download-button.png" alt="Download Legend Panel 4.0.0" width="371"></a>
 
 One file: no installer, nothing to unpack. To update, replace the exe; your settings are kept. [All releases](https://github.com/Encapsulation/LegendPanel/releases)
 
-**VirusTotal (3.1.0):** [0 of 69 security vendors flagged it](https://www.virustotal.com/gui/file/4b79d447bd3aad2b1cff27ae0d05767a6aeb7525d53563f253108427239c22b3)  
-SHA256: `4b79d447bd3aad2b1cff27ae0d05767a6aeb7525d53563f253108427239c22b3`
+**VirusTotal (4.0.0):** [0 of 68 security vendors flagged it](https://www.virustotal.com/gui/file/bdff945e7121df2bf30b2eef2c537b5763de8c17f78a382a1d7c91df2a2d828e)  
+SHA256: `bdff945e7121df2bf30b2eef2c537b5763de8c17f78a382a1d7c91df2a2d828e`
 
 Windows may show "Windows protected your PC" the first time, because the app isn't code-signed yet. Click **More info**, then **Run anyway**.
 
@@ -42,13 +42,13 @@ Windows may show "Windows protected your PC" the first time, because the app isn
 ![Curved units, folding and Surround](docs/legendpanel-surround.png)
 
 ### The wristwatch
-- Six looks: Chronograph, Sport, Smart, Diver, Mini panel and Band.
+- Eight looks: Chronograph, Sport, Smart, Diver, Mini panel, Band, Skeleton (turning gears) and Holo HUD.
 - Time, FPS with the last frames, CPU, GPU and VRAM use, batteries and what's playing, at your headset's refresh rate.
 - Buttons for the panel, the keyboard, your screens and your media. Grab it to put it on either wrist or anywhere in the room, size it, bend its strap round your wrist, lock it.
 - Cable turns: how often you've turned one way, so the headset cable never tangles (no drift; click it when the cable is straight). Also on the panel, and as an optional floor ring.
 - Show when: always, or only while you look at your wrist.
 
-![The wristwatch: six looks](docs/legendpanel-300-watch.png)
+![The wristwatch](docs/legendpanel-300-watch.png)
 
 ### Keyboard and voice
 - A VR keyboard that types in 5.4 ms from trigger to keystroke (median; SteamVR's keyboard: 22.7 ms on the same rig).
@@ -91,17 +91,33 @@ Windows may show "Windows protected your PC" the first time, because the app isn
 ### Look and comfort
 - 16 laser colors plus custom, 8 beam styles, pointer cursors, a clock and calendar.
 - Show when, for the panel, the watch, each screen and the keyboard: always, head turn or eye look, with its own angle, stay time, and faint or gone when away.
-- Eye comfort: brightness down to 5 % and color temperature. Headset test images: sharpness, grid, colors, contrast, dark steps.
+- Themes and skins: 24 themes and 28 live GPU skins (any color, animated or still) for the panel, the watch and the keyboard, each on its own.
+- Eye comfort: brightness down to 5 % and color temperature in kelvin. Night mode: warmer and dimmer after sunset, from set times or your location. Headset test images: sharpness, grid, colors, contrast, dark steps.
 
 ![Lasers, tooltips and test images](docs/legendpanel-hero3.png)
 
 ### The menu
-- Every setting in VR and in the desktop window, with an explanation on hover. Without eye control, the panel's Menu opens the full menu in VR; with it, the eye-tracked menu.
+- Every setting in VR and in the desktop window, with an explanation on hover. Settings search finds any of them, by keyword or (optional, on your PC) by meaning. Without eye control, the panel's Menu opens the full menu in VR; with it, the eye-tracked menu.
 - A tutorial on the first start and with each new version, and settings backup with undo.
 
-## What's new in 3.1
+## What's new in 4.0
 
-![LegendPanel 3.1](docs/legendpanel-hero-310.png)
+![LegendPanel 4.0](docs/legendpanel-hero-400.png)
+
+- **15 common languages:** from your Windows language or App > Language; it switches instantly.
+- **Settings search:** a search box in the menu. Type or say it; results show where each setting lives. Optional local semantic search finds settings by meaning, entirely on your PC.
+- **Themes and skins:** 24 themes and 28 skins drawn live on your GPU, any color, for the panel, the watch and the keyboard. The menu floats on glass so it stays readable.
+- **Watches:** Skeleton (with a glass caseback, an optional real 3D movement in stereo and a choice of plates) and Holo HUD. Every watch gets Recenter and Volume, and a Screens list to show, hide or add screens.
+- **CPU per core:** every core's load, numbered, with its own graph.
+- **Menu icons:** on every menu button and the panel's own buttons.
+- **Night mode:** warmer and dimmer after sunset, from set times or your location. Temperature in kelvin.
+- **Screens:** tilt with grip + trigger, keyboard on text fields, docked screens and the keyboard match curves, resizing keeps docked edges lined up.
+- **Comfort:** color-blind modes, a playspace center marker on the floor, key binds on either hand.
+- **Steady hold and clicks:** advanced filtering keeps held panels and screens steady; clicks land where you aimed, with lower latency.
+
+[Full 4.0 notes](RELEASE_4.0.0.md)
+
+## What's new in 3.1
 
 - **Show when:** the panel, the watch, screens and the keyboard can each show only while you look at them (head turn or eye look), with their own angle, stay time, and faint or gone when away. The watch can now hide until you look at your wrist.
 - **Cable turns:** counts your turns one way so the headset cable never tangles. No drift (playspace turns and recentering never change it). On the watch and the panel past a set number of turns, plus an optional floor ring. Click the tag or the chip when the cable is straight. Off on wireless headsets.
