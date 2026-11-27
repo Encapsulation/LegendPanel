@@ -11,8 +11,8 @@ LegendPanel is a SteamVR panel that sits on your wrist or in the room. It shows 
 
 One file: no installer, nothing to unpack. To update, replace the exe; your settings are kept. [All releases](https://github.com/Encapsulation/LegendPanel/releases)
 
-**VirusTotal (4.0.0):** [0 of 68 security vendors flagged it](https://www.virustotal.com/gui/file/bdff945e7121df2bf30b2eef2c537b5763de8c17f78a382a1d7c91df2a2d828e)  
-SHA256: `bdff945e7121df2bf30b2eef2c537b5763de8c17f78a382a1d7c91df2a2d828e`
+**VirusTotal (4.0.0):** [0 of 68 security vendors flagged it](https://www.virustotal.com/gui/file/d3c8d4b90141faf980563db27bfd8770d64768b0caf90822056b34c890abd940)  
+SHA256: `d3c8d4b90141faf980563db27bfd8770d64768b0caf90822056b34c890abd940`
 
 Windows may show "Windows protected your PC" the first time, because the app isn't code-signed yet. Click **More info**, then **Run anyway**.
 
@@ -107,11 +107,11 @@ Windows may show "Windows protected your PC" the first time, because the app isn
 - **15 common languages:** from your Windows language or App > Language; it switches instantly.
 - **Settings search:** a search box in the menu. Type or say it; results show where each setting lives. Optional local semantic search finds settings by meaning, entirely on your PC.
 - **Themes and skins:** 24 themes and 28 skins drawn live on your GPU, any color, for the panel, the watch and the keyboard. The menu floats on glass so it stays readable.
-- **Watches:** Skeleton (with a glass caseback, an optional real 3D movement in stereo and a choice of plates) and Holo HUD. Every watch gets Recenter and Volume, and a Screens list to show, hide or add screens.
+- **Watches:** Skeleton (with a glass caseback, an optional real 3D movement in stereo and a choice of plates) and Holo HUD. Every watch gets Recenter and Volume, and a Screens list to show, hide, close or add screens.
 - **CPU per core:** every core's load, numbered, with its own graph.
 - **Menu icons:** on every menu button and the panel's own buttons.
 - **Night mode:** warmer and dimmer after sunset, from set times or your location. Temperature in kelvin.
-- **Screens:** tilt with grip + trigger, keyboard on text fields, docked screens and the keyboard match curves, resizing keeps docked edges lined up.
+- **Screens:** show or hide each screen without closing it (Screens page, desktop menu, watch), tilt with grip + trigger, keyboard on text fields, docked screens and the keyboard match curves, resizing keeps docked edges lined up.
 - **Comfort:** color-blind modes, a playspace center marker on the floor, key binds on either hand.
 - **Steady hold and clicks:** advanced filtering keeps held panels and screens steady; clicks land where you aimed, with lower latency.
 

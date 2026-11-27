@@ -1,5 +1,7 @@
 # LegendPanel 4.0.0
 
+![LegendPanel 4.0](https://raw.githubusercontent.com/Encapsulation/LegendPanel/main/docs/legendpanel-hero-400.png)
+
 ## 15 common languages
 - English, 日本語, 简体中文, 繁體中文, 한국어, Deutsch, Français, Español, Italiano, Português (Brasil), Русский, Polski, Українська, Bahasa Indonesia and ไทย.
 - It follows your Windows language, or pick one in App > Language. Everything switches at once: the panel, the menus, the watch, the keyboard, the screens and every tooltip.
@@ -26,7 +28,7 @@
 - Plate: pick the finish behind the wheels: perlage grey, black, blue or rhodium, Geneva stripes, gilt, your watch theme or your watch skin.
 - Holo HUD: a glowing heads-up display. The watch now has eight looks.
 - New buttons on every watch: Recenter, and Volume (press to mute; while pointing at it, the stick sets the level).
-- The Screens button opens a list: show or hide all your screens or each one, add a screen (a monitor, the active window or any open window), or go to the Screens page.
+- The Screens button opens a list: show or hide all your screens or each one, close one, add a screen (a monitor, the active window or any open window), or go to the Screens page.
 - All the watch's settings are in one place: Hands > Watch (look, show when, theme, skin, Skeleton).
 
 ## CPU per core
@@ -42,6 +44,8 @@
 - Every click in the desktop menu makes the click sound.
 
 ## Screens and docking
+- Your screens, in the desktop menu (Screens > Your screens): every open screen with Show / Hide, Keyboard, Settings, Recenter and Close, and tabs to add monitors and windows.
+- Show or hide any screen without closing it, from the Screens page, the desktop menu or the watch.
 - Tilt and curve: hold a screen, the panel or the keyboard with the grip and keep the trigger squeezed. The stick forward or back tilts it; left or right curves a screen. Pick what each direction does on Hands > Grab & throw.
 - Docked screens take their parent's curve, sideways and up and down, so the edges meet. A docked keyboard curves with its screen too.
 - Resizing a docked screen, keyboard or panel with both hands keeps it lined up along its edge.
@@ -78,6 +82,6 @@
 - The panel no longer starts following your head after you walk far from the playspace.
 
 ## Download
-**LegendPanel.exe** below. VirusTotal: [0 of 68 security vendors flagged it](https://www.virustotal.com/gui/file/bdff945e7121df2bf30b2eef2c537b5763de8c17f78a382a1d7c91df2a2d828e). SHA256: `bdff945e7121df2bf30b2eef2c537b5763de8c17f78a382a1d7c91df2a2d828e`
+**LegendPanel.exe** below. VirusTotal: [0 of 68 security vendors flagged it](https://www.virustotal.com/gui/file/d3c8d4b90141faf980563db27bfd8770d64768b0caf90822056b34c890abd940). SHA256: `d3c8d4b90141faf980563db27bfd8770d64768b0caf90822056b34c890abd940`
 
 Updating: replace LegendPanel.exe. Your settings are kept.
