@@ -2,11 +2,11 @@
 
 ![LegendPanel 4.0](docs/legendpanel-hero-400.png)
 
-LegendPanel is a SteamVR panel that sits on your wrist or in the room. It shows your frame rate, frame times, GPU and CPU use, memory, batteries and eye tracking without leaving VR. It also puts your monitors and app windows in VR as overlays you dock into hinged assemblies that curve, fold and follow you, and snap screens, the keyboard and the panel to any body part you wear a tracker on, with a wristwatch, a fast VR keyboard, local voice typing on your GPU, every bind on one page, Game mode for any game, media and sound controls, space drag, eye comfort, laser styles, headset test images and, with LegendEye, eye and face tracking controls. Free to use.
+LegendPanel is a SteamVR panel that sits on your wrist or in the room, in 15 common languages. Find any setting with the search box, with optional local semantic search that runs entirely on your PC. Make it yours with 24 themes and 28 live GPU skins for the panel, the watch and the keyboard, and wear a Skeleton watch with a real gear train (in 3D, in stereo) or the Holo HUD. See your frame times, GPU and CPU use with every core, memory, batteries and eye tracking without leaving VR. Put your monitors and windows in VR, show or hide each one, tilt and curve them, and dock them into assemblies whose edges meet. Steady hold's advanced filtering keeps what you hold steady, clicks land where you aimed, and the VR keyboard has local voice typing. Night mode, color-blind modes, a playspace center marker, Game mode, media and sound controls and, with LegendEye, eye and face tracking controls. Free to use.
 
 ## ⬇️ Download
 
-<a href="https://github.com/Encapsulation/LegendPanel/releases/latest/download/LegendPanel.exe"><img src="docs/download-button.png" alt="Download Legend Panel 4.0.0" width="371"></a>
+<a href="https://github.com/Encapsulation/LegendPanel/releases/latest/download/LegendPanel.exe"><img src="docs/download-button-400.png" alt="Download Legend Panel 4.0.0" width="371"></a>
 
 One file: no installer, nothing to unpack. To update, replace the exe; your settings are kept. [All releases](https://github.com/Encapsulation/LegendPanel/releases)
 
